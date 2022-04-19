@@ -1,0 +1,70 @@
+
+.CartItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(241, 234, 234);
+    color: rgb(15, 14, 14);
+    margin: 20px;
+}
+
+.btn{
+    height: 40px;
+    width: 50%;
+}
+
+.btnAdd{
+    background-color: rgb(19, 161, 19);
+    padding: 10px;
+    margin: 10px;
+}
+
+.btnRemove{
+    background-color: rgb(179, 26, 26);
+    padding: 10px;
+    margin: 10px;
+
+}
+.CartItem .name{
+    margin: 3px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.CartItem .Price{
+    background-color: #19aace;
+    color: rgb(238, 224, 224);
+    padding: 10px;
+    margin: 7px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.BoxDelete {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDelete {
+    background: rgb(36,0,0);
+background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(212,23,39,1) 0%, rgba(212,23,39,1) 25%, rgba(209,24,37,1) 44%, rgba(255,0,65,1) 100%);
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 6px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+}

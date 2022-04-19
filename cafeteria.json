@@ -1,0 +1,18 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"cafeteria"},
+{"type":"table","name":"productos","database":"cafeteria","data":
+[
+{"id":"1","Nombre":"Frijol Rojo ","Referencia":"Fri00123N","Precio":"5590","Peso":"1","Categoria":"Alimentos","Stock":"32","Fecha":"2022-04-18"},
+{"id":"2","Nombre":"Chocolate Sol ","Referencia":"Cho00926M","Precio":"3250","Peso":"1","Categoria":"Alimentos","Stock":"14","Fecha":"2022-04-18"},
+{"id":"3","Nombre":"Azúcar","Referencia":"AZU0098N","Precio":"2300","Peso":"1","Categoria":"Alimentos","Stock":"25","Fecha":"2022-04-19"},
+{"id":"4","Nombre":"Arroz","Referencia":"ARR00762M","Precio":"2500","Peso":"1","Categoria":"Alimentos","Stock":"20","Fecha":"2022-04-19"},
+{"id":"5","Nombre":"Jabon","Referencia":"JAB00237A","Precio":"3500","Peso":"1","Categoria":"Aseo","Stock":"12","Fecha":"2022-04-19"}
+]
+}
+,{"type":"table","name":"ventas","database":"cafeteria","data":
+[
+{"Id":"0","Cant":"0"}
+]
+}
+]
