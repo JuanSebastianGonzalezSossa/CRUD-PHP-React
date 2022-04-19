@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Añadir Base de datos a Mysql
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En el repositorio hay dos archivos "cafeteria.JSON" y "cafeteria.sql" con Cualquiera de los dos podra añadir la base de datos a Mysql
 
-## Available Scripts
+# Añadir Carpeta "ApiPhpKonecta" a servidor local donde este corriendo Myqlq
 
-In the project directory, you can run:
+En mi caso ya que levant Mysql por medio de Xampp, ubique la carpeta "ApiPhpKonecta" con la api entro de la carpeta Xampp/phpMyAdmin/ n esa ubicación para que pueda funcionar la api 
 
-### `npm start`
+# LA url para consultar por potsman en caso de cualquier inconveniente
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+"http://localhost/phpmyadmin/ApiPhpKonecta/"
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+En caso tal que el puerto le corra por el 5000 o 3306 ponerlo despues del localhost si la anterior url le falla
 
-### `npm test`
+Poner Como parametro en body - METHOD - (POST, PUT, DELETE) depende la que desee consultar, lo hice asi por los errores de php a la hora de realizar este tipo de consultas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# instalar las dependecias de react en caso de ser necesario 
 
-### `npm run build`
+-npm i react-router-dom
+-npm i reactstrap
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Para correr el proyecto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Digitar el comando "npm start" en la terminal dentro de la carpeta konecta 
+Levantar la base datos para poder realizar las consultas 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+!MUCHAS GRACIAS POR LA ATENCIÓN!
